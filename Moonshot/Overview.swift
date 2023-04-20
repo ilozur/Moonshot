@@ -32,6 +32,14 @@ struct CustomText: View {
 
 struct Overview: View {
     var body: some View {
+        
+        let layout = [
+//            GridItem(.fixed(80)),
+//            GridItem(.fixed(80)),
+//            GridItem(.fixed(80))
+            GridItem(.adaptive(minimum: 80, maximum: 120))
+        ]
+        
         GeometryReader { geo in
             Image("Example")
                 .resizable()
@@ -75,6 +83,20 @@ struct Overview: View {
             
             if let user = try? JSONDecoder().decode(User.self, from: data) {
                 print(user.address.street)
+            }
+        }
+        ScrollView(.vertical) {
+            LazyVGrid(columns: layout) {
+                ForEach(0..<1000) {
+                    Text("Item \($0)")
+                }
+            }
+        }
+        ScrollView(.horizontal) {
+            LazyHGrid(rows: layout) {
+                ForEach(0..<1000) {
+                    Text("Item \($0)")
+                }
             }
         }
     }
