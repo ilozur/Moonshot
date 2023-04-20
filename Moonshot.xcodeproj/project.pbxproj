@@ -11,6 +11,7 @@
 		BE88146629F15F4800D40CBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88146529F15F4800D40CBF /* ContentView.swift */; };
 		BE88146829F15F4A00D40CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE88146729F15F4A00D40CBF /* Assets.xcassets */; };
 		BE88146B29F15F4A00D40CBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE88146A29F15F4A00D40CBF /* Preview Assets.xcassets */; };
+		BE88147229F15FBE00D40CBF /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88147129F15FBE00D40CBF /* Overview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE88146529F15F4800D40CBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE88146729F15F4A00D40CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE88146A29F15F4A00D40CBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE88147129F15FBE00D40CBF /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BE88146329F15F4800D40CBF /* MoonshotApp.swift */,
 				BE88146529F15F4800D40CBF /* ContentView.swift */,
+				BE88147129F15FBE00D40CBF /* Overview.swift */,
 				BE88146729F15F4A00D40CBF /* Assets.xcassets */,
 				BE88146929F15F4A00D40CBF /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE88147229F15FBE00D40CBF /* Overview.swift in Sources */,
 				BE88146629F15F4800D40CBF /* ContentView.swift in Sources */,
 				BE88146429F15F4800D40CBF /* MoonshotApp.swift in Sources */,
 			);
