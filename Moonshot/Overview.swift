@@ -41,6 +41,16 @@ struct Overview: View {
             }
             .frame(maxWidth: .infinity)
         }
+        NavigationView {
+            List(0..<100) { row in
+                NavigationLink {
+                    Text("Detail \(row)")
+                } label: {
+                    Text("Row \(row)")
+                }
+            }
+            .navigationTitle("Swift")
+        }
     }
 }
 
