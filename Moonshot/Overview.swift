@@ -9,7 +9,16 @@ import SwiftUI
 
 struct Overview: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader { geo in
+            Image("Example")
+                .resizable()
+                .scaledToFit()
+            //            .scaledToFill()
+                .frame(width: geo.size.width * 0.8)
+                .frame(width: geo.size.width, height: geo.size.height)
+                .ignoresSafeArea()
+            //            .clipped()
+        }
     }
 }
 
