@@ -50,6 +50,7 @@ struct Overview: View {
                 .ignoresSafeArea()
             //            .clipped()
         }
+        
         ScrollView(.horizontal) {
             LazyHStack(spacing: 10) {
                 ForEach(0..<100) {
@@ -59,6 +60,7 @@ struct Overview: View {
             }
             .frame(maxWidth: .infinity)
         }
+        
         NavigationView {
             List(0..<100) { row in
                 NavigationLink {
@@ -85,6 +87,7 @@ struct Overview: View {
                 print(user.address.street)
             }
         }
+        
         ScrollView(.vertical) {
             LazyVGrid(columns: layout) {
                 ForEach(0..<1000) {
@@ -92,6 +95,7 @@ struct Overview: View {
                 }
             }
         }
+        
         ScrollView(.horizontal) {
             LazyHGrid(rows: layout) {
                 ForEach(0..<1000) {
