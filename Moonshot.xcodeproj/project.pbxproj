@@ -16,6 +16,7 @@
 		BEE80F8029F1BB470094EC19 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = BEE80F7E29F1BB470094EC19 /* astronauts.json */; };
 		BEE80F8229F1BBDA0094EC19 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80F8129F1BBDA0094EC19 /* Astronaut.swift */; };
 		BEE80F8429F1BC890094EC19 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE80F8329F1BC890094EC19 /* Bundle-Decodable.swift */; };
+		BEF1B5A329F71C9D00860B7D /* Missiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1B5A229F71C9D00860B7D /* Missiom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BEE80F7E29F1BB470094EC19 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		BEE80F8129F1BBDA0094EC19 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		BEE80F8329F1BC890094EC19 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		BEF1B5A229F71C9D00860B7D /* Missiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missiom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				BE88146329F15F4800D40CBF /* MoonshotApp.swift */,
 				BE88146529F15F4800D40CBF /* ContentView.swift */,
 				BEE80F8129F1BBDA0094EC19 /* Astronaut.swift */,
+				BEF1B5A229F71C9D00860B7D /* Missiom.swift */,
 				BEE80F8329F1BC890094EC19 /* Bundle-Decodable.swift */,
 				BE88147129F15FBE00D40CBF /* Overview.swift */,
 				BEE80F7E29F1BB470094EC19 /* astronauts.json */,
@@ -157,6 +160,7 @@
 				BE88147229F15FBE00D40CBF /* Overview.swift in Sources */,
 				BEE80F8229F1BBDA0094EC19 /* Astronaut.swift in Sources */,
 				BEE80F8429F1BC890094EC19 /* Bundle-Decodable.swift in Sources */,
+				BEF1B5A329F71C9D00860B7D /* Missiom.swift in Sources */,
 				BE88146629F15F4800D40CBF /* ContentView.swift in Sources */,
 				BE88146429F15F4800D40CBF /* MoonshotApp.swift in Sources */,
 			);
